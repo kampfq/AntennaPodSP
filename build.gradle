@@ -74,7 +74,7 @@ android {
             applicationIdSuffix ".debug"
         }
         release {
-            runProguard true
+            minifyEnabled true
             proguardFile 'proguard.cfg'
             signingConfig signingConfigs.releaseConfig
         }
