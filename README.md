@@ -27,7 +27,7 @@ A detailed guide can be found in the [Wiki](https://github.com/danieloeh/Antenna
 
 ## Screenshots
 
-![screenshot splashscreen](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot1.png =250x) 
+![screenshot splashscreen](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot1.png){ width: 200px; } 
 ![screenshot list](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot2.png  =250x) 
 ![screenshot player](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot3.png =250x) 
 ![screenshot about](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot4.png =250x) 
