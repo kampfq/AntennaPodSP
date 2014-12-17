@@ -1,0 +1,221 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:11
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-sdk
+ADDED from AndroidManifest.xml:11:5
+MERGED from com.android.support:appcompat-v7:20.0.0:16:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+MERGED from AntennaPodSP.dep.AndroidSlidingUpPanel:library:unspecified:7:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:13:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:12:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+supports-screens
+ADDED from AndroidManifest.xml:17:5
+	android:largeScreens
+		ADDED from AndroidManifest.xml:19:9
+	android:smallScreens
+		ADDED from AndroidManifest.xml:21:9
+	android:normalScreens
+		ADDED from AndroidManifest.xml:20:9
+	android:xlargeScreens
+		ADDED from AndroidManifest.xml:22:9
+	android:anyDensity
+		ADDED from AndroidManifest.xml:18:9
+uses-feature#android.hardware.screen.portrait
+ADDED from AndroidManifest.xml:24:5
+	android:required
+		ADDED from AndroidManifest.xml:26:9
+	android:name
+		ADDED from AndroidManifest.xml:25:9
+uses-feature#android.hardware.touchscreen
+ADDED from AndroidManifest.xml:27:5
+	android:required
+		ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:28:9
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:31:22
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+application
+ADDED from AndroidManifest.xml:34:5
+MERGED from com.android.support:appcompat-v7:20.0.0:17:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
+MERGED from AntennaPodSP.dep.AndroidSlidingUpPanel:library:unspecified:11:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
+	android:label
+		ADDED from AndroidManifest.xml:37:9
+	android:icon
+		ADDED from AndroidManifest.xml:36:9
+	android:theme
+		ADDED from AndroidManifest.xml:39:9
+	android:logo
+		ADDED from AndroidManifest.xml:38:9
+	android:name
+		ADDED from AndroidManifest.xml:35:9
+activity#de.danoeh.antennapodsp.activity.InitActivity
+ADDED from AndroidManifest.xml:42:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:44:13
+	android:theme
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:43:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:46:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:47:17
+	android:name
+		ADDED from AndroidManifest.xml:47:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:48:17
+	android:name
+		ADDED from AndroidManifest.xml:48:27
+activity#de.danoeh.antennapodsp.activity.MainActivity
+ADDED from AndroidManifest.xml:52:9
+	android:label
+		ADDED from AndroidManifest.xml:55:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:54:13
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+service#de.danoeh.antennapodsp.service.download.DownloadService
+ADDED from AndroidManifest.xml:59:9
+	android:enabled
+		ADDED from AndroidManifest.xml:61:13
+	android:name
+		ADDED from AndroidManifest.xml:60:13
+service#de.danoeh.antennapodsp.service.playback.PlaybackService
+ADDED from AndroidManifest.xml:62:9
+	android:enabled
+		ADDED from AndroidManifest.xml:64:13
+	android:exported
+		ADDED from AndroidManifest.xml:65:13
+	android:name
+		ADDED from AndroidManifest.xml:63:13
+receiver#de.danoeh.antennapodsp.receiver.MediaButtonReceiver
+ADDED from AndroidManifest.xml:68:9
+	android:exported
+		ADDED from AndroidManifest.xml:70:13
+	android:name
+		ADDED from AndroidManifest.xml:69:13
+intent-filter#android.intent.action.MEDIA_BUTTON
+ADDED from AndroidManifest.xml:71:13
+action#android.intent.action.MEDIA_BUTTON
+ADDED from AndroidManifest.xml:72:17
+	android:name
+		ADDED from AndroidManifest.xml:72:25
+intent-filter#de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER
+ADDED from AndroidManifest.xml:74:13
+action#de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER
+ADDED from AndroidManifest.xml:75:17
+	android:name
+		ADDED from AndroidManifest.xml:75:25
+receiver#de.danoeh.antennapodsp.receiver.FeedUpdateReceiver
+ADDED from AndroidManifest.xml:79:9
+	android:name
+		ADDED from AndroidManifest.xml:79:19
+intent-filter#de.danoeh.antennapod.feedupdatereceiver.refreshFeeds
+ADDED from AndroidManifest.xml:80:13
+action#de.danoeh.antennapod.feedupdatereceiver.refreshFeeds
+ADDED from AndroidManifest.xml:81:17
+	android:name
+		ADDED from AndroidManifest.xml:81:25
+activity#de.danoeh.antennapodsp.activity.AboutActivity
+ADDED from AndroidManifest.xml:85:9
+	android:label
+		ADDED from AndroidManifest.xml:87:13
+	android:name
+		ADDED from AndroidManifest.xml:86:13
+receiver#de.danoeh.antennapodsp.receiver.ConnectivityActionReceiver
+ADDED from AndroidManifest.xml:90:9
+	android:name
+		ADDED from AndroidManifest.xml:90:19
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:91:13
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:92:17
+	android:name
+		ADDED from AndroidManifest.xml:92:25
+receiver#de.danoeh.antennapodsp.receiver.AlarmUpdateReceiver
+ADDED from AndroidManifest.xml:96:9
+	android:name
+		ADDED from AndroidManifest.xml:96:19
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:97:13
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:98:17
+	android:name
+		ADDED from AndroidManifest.xml:98:25
+intent-filter#android.intent.action.PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:100:13
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from AndroidManifest.xml:101:17
+	android:name
+		ADDED from AndroidManifest.xml:101:25
+data
+ADDED from AndroidManifest.xml:103:17
+	android:path
+		ADDED from AndroidManifest.xml:104:21
+	android:scheme
+		ADDED from AndroidManifest.xml:105:21
+receiver#de.danoeh.antennapodsp.receiver.SPAReceiver
+ADDED from AndroidManifest.xml:109:9
+	android:name
+		ADDED from AndroidManifest.xml:109:19
+intent-filter#android.intent.action.PACKAGE_ADDED
+ADDED from AndroidManifest.xml:110:13
+action#android.intent.action.PACKAGE_ADDED
+ADDED from AndroidManifest.xml:111:17
+	android:name
+		ADDED from AndroidManifest.xml:111:25
+intent-filter#de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS
+ADDED from AndroidManifest.xml:116:13
+action#de.danoeh.antennapdsp.intent.SP_APPS_QUERY_FEEDS
+ADDED from AndroidManifest.xml:117:17
+	android:name
+		ADDED from AndroidManifest.xml:117:25
+intent-filter#de.danoeh.antennapodsp.intent.SP_APPS_USER_ASKED_FOR_INSTALLATION
+ADDED from AndroidManifest.xml:119:13
+action#de.danoeh.antennapodsp.intent.SP_APPS_USER_ASKED_FOR_INSTALLATION
+ADDED from AndroidManifest.xml:120:17
+	android:name
+		ADDED from AndroidManifest.xml:120:25
