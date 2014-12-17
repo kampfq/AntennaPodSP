@@ -25,6 +25,12 @@ It only focuses on the basic features for consuming podcasts and requires absolu
 
 A detailed guide can be found in the [Wiki](https://github.com/danieloeh/AntennaPodSP/wiki/Building-AntennaPod-SP).
 
+## Screenshots
+
+![screenshot splashscreen](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot1.png) 
+![screenshot list](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot2.png) 
+![screenshot player](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot3.png) 
+![screenshot about](https://raw.githubusercontent.com/kampfq/Readcast-Android-App/master/screenshots/screenshot4.png) 
 
 ## License
 
