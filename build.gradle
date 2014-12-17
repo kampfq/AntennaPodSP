@@ -73,11 +73,12 @@ android {
         debug {
             applicationIdSuffix ".debug"
         }
-        release {
+        def type = release {
             minifyEnabled true
             proguardFile 'proguard.cfg'
             signingConfig signingConfigs.releaseConfig
         }
+        type
     }
 
     packagingOptions {
