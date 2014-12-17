@@ -26,7 +26,7 @@ android {
     defaultConfig {
         minSdkVersion 10
         targetSdkVersion 20
-        applicationId "de.danoeh.antennapodsp.custom"
+        applicationId "de.danoeh.antennapodsp.readcast"
         testApplicationId "de.test.antennapod"
         testInstrumentationRunner "instrumentationTest.de.test.antennapod.AntennaPodTestRunner"
     }
@@ -74,7 +74,7 @@ android {
             applicationIdSuffix ".debug"
         }
         def type = release {
-            minifyEnabled true
+            runProguard true
             proguardFile 'proguard.cfg'
             signingConfig signingConfigs.releaseConfig
         }
