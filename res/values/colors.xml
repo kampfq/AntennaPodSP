@@ -30,9 +30,9 @@
     <color name="overlay_light">#DDDDDD</color>
 
     <!-- Use Gingerbread-orange -->
-    <color name="selection_background_color_dark">#ff065bf2</color>
-    <color name="selection_background_color_light">#ff007bf2</color>
+    <color name="selection_background_color_dark">#ff000000</color>
+    <color name="selection_background_color_light">#ff000000</color>
 
-    <color name="theme_color">#ff007bf2</color>
+    <color name="theme_color">#ff000000</color>
 
 </resources>

@@ -91,7 +91,7 @@ MERGED from com.android.support:support-v4:20.0.0:17:5
 		ADDED from AndroidManifest.xml:38:9
 	android:name
 		ADDED from AndroidManifest.xml:35:9
-activity#de.danoeh.antennapodsp.activity.InitActivity
+activity#de.danoeh.antennapodsp.readcast.activity.InitActivity
 ADDED from AndroidManifest.xml:42:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:44:13
@@ -109,7 +109,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:48:17
 	android:name
 		ADDED from AndroidManifest.xml:48:27
-activity#de.danoeh.antennapodsp.activity.MainActivity
+activity#de.danoeh.antennapodsp.readcast.activity.MainActivity
 ADDED from AndroidManifest.xml:52:9
 	android:label
 		ADDED from AndroidManifest.xml:55:13
@@ -117,13 +117,13 @@ ADDED from AndroidManifest.xml:52:9
 		ADDED from AndroidManifest.xml:54:13
 	android:name
 		ADDED from AndroidManifest.xml:53:13
-service#de.danoeh.antennapodsp.service.download.DownloadService
+service#de.danoeh.antennapodsp.readcast.service.download.DownloadService
 ADDED from AndroidManifest.xml:59:9
 	android:enabled
 		ADDED from AndroidManifest.xml:61:13
 	android:name
 		ADDED from AndroidManifest.xml:60:13
-service#de.danoeh.antennapodsp.service.playback.PlaybackService
+service#de.danoeh.antennapodsp.readcast.service.playback.PlaybackService
 ADDED from AndroidManifest.xml:62:9
 	android:enabled
 		ADDED from AndroidManifest.xml:64:13
@@ -131,7 +131,7 @@ ADDED from AndroidManifest.xml:62:9
 		ADDED from AndroidManifest.xml:65:13
 	android:name
 		ADDED from AndroidManifest.xml:63:13
-receiver#de.danoeh.antennapodsp.receiver.MediaButtonReceiver
+receiver#de.danoeh.antennapodsp.readcast.receiver.MediaButtonReceiver
 ADDED from AndroidManifest.xml:68:9
 	android:exported
 		ADDED from AndroidManifest.xml:70:13
@@ -149,7 +149,7 @@ action#de.danoeh.antennapod.NOTIFY_BUTTON_RECEIVER
 ADDED from AndroidManifest.xml:75:17
 	android:name
 		ADDED from AndroidManifest.xml:75:25
-receiver#de.danoeh.antennapodsp.receiver.FeedUpdateReceiver
+receiver#de.danoeh.antennapodsp.readcast.receiver.FeedUpdateReceiver
 ADDED from AndroidManifest.xml:79:9
 	android:name
 		ADDED from AndroidManifest.xml:79:19
@@ -159,13 +159,13 @@ action#de.danoeh.antennapod.feedupdatereceiver.refreshFeeds
 ADDED from AndroidManifest.xml:81:17
 	android:name
 		ADDED from AndroidManifest.xml:81:25
-activity#de.danoeh.antennapodsp.activity.AboutActivity
+activity#de.danoeh.antennapodsp.readcast.activity.AboutActivity
 ADDED from AndroidManifest.xml:85:9
 	android:label
 		ADDED from AndroidManifest.xml:87:13
 	android:name
 		ADDED from AndroidManifest.xml:86:13
-receiver#de.danoeh.antennapodsp.receiver.ConnectivityActionReceiver
+receiver#de.danoeh.antennapodsp.readcast.receiver.ConnectivityActionReceiver
 ADDED from AndroidManifest.xml:90:9
 	android:name
 		ADDED from AndroidManifest.xml:90:19
@@ -175,7 +175,7 @@ action#android.net.conn.CONNECTIVITY_CHANGE
 ADDED from AndroidManifest.xml:92:17
 	android:name
 		ADDED from AndroidManifest.xml:92:25
-receiver#de.danoeh.antennapodsp.receiver.AlarmUpdateReceiver
+receiver#de.danoeh.antennapodsp.readcast.receiver.AlarmUpdateReceiver
 ADDED from AndroidManifest.xml:96:9
 	android:name
 		ADDED from AndroidManifest.xml:96:19
@@ -197,7 +197,7 @@ ADDED from AndroidManifest.xml:103:17
 		ADDED from AndroidManifest.xml:104:21
 	android:scheme
 		ADDED from AndroidManifest.xml:105:21
-receiver#de.danoeh.antennapodsp.receiver.SPAReceiver
+receiver#de.danoeh.antennapodsp.readcast.receiver.SPAReceiver
 ADDED from AndroidManifest.xml:109:9
 	android:name
 		ADDED from AndroidManifest.xml:109:19
